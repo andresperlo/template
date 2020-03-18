@@ -1,0 +1,47 @@
+.flecha:hover{
+    background-color: white;
+}
+
+.imagenesmenu{
+    width: 50%;
+    height: auto;
+}
+
+.redesSociales{
+    color: white;
+    font-size: 1.5rem;
+   
+}
+
+.redesSociales a{
+    text-decoration: none;
+    color: white;
+}
+
+
+body{
+    background: rgba(76,76,76,1);
+    background: -moz-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(89,89,89,0.97) 12%, rgba(102,102,102,0.94) 25%, rgba(71,71,71,0.9) 39%, rgba(44,44,44,0.88) 50%, rgba(0,0,0,0.87) 51%, rgba(17,17,17,0.85) 60%, rgba(43,43,43,0.81) 76%, rgba(28,28,28,0.77) 91%, rgba(19,19,19,0.75) 100%);
+    background: -webkit-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(89,89,89,0.97) 12%, rgba(102,102,102,0.94) 25%, rgba(71,71,71,0.9) 39%, rgba(44,44,44,0.88) 50%, rgba(0,0,0,0.87) 51%, rgba(17,17,17,0.85) 60%, rgba(43,43,43,0.81) 76%, rgba(28,28,28,0.77) 91%, rgba(19,19,19,0.75) 100%);
+    background: -o-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(89,89,89,0.97) 12%, rgba(102,102,102,0.94) 25%, rgba(71,71,71,0.9) 39%, rgba(44,44,44,0.88) 50%, rgba(0,0,0,0.87) 51%, rgba(17,17,17,0.85) 60%, rgba(43,43,43,0.81) 76%, rgba(28,28,28,0.77) 91%, rgba(19,19,19,0.75) 100%);
+    background: -ms-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(89,89,89,0.97) 12%, rgba(102,102,102,0.94) 25%, rgba(71,71,71,0.9) 39%, rgba(44,44,44,0.88) 50%, rgba(0,0,0,0.87) 51%, rgba(17,17,17,0.85) 60%, rgba(43,43,43,0.81) 76%, rgba(28,28,28,0.77) 91%, rgba(19,19,19,0.75) 100%);
+    background: linear-gradient(to bottom, rgba(76,76,76,1) 0%, rgba(89,89,89,0.97) 12%, rgba(102,102,102,0.94) 25%, rgba(71,71,71,0.9) 39%, rgba(44,44,44,0.88) 50%, rgba(0,0,0,0.87) 51%, rgba(17,17,17,0.85) 60%, rgba(43,43,43,0.81) 76%, rgba(28,28,28,0.77) 91%, rgba(19,19,19,0.75) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=0 );
+    
+}
+
+
+label{
+    color: white;
+}
+h1{
+    color: white;
+}
+
+h4{
+    color: white;
+}
+
+h3{
+    color: white;
+}
