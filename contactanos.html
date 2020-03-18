@@ -95,32 +95,27 @@
             <div class="col-sm-12 col-md-4">
                 <form>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Nombre</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <label for="exampleInputEmail1">Nombre*</label>
+                        <input type="email" placeholder="Escribe tu Nombre Completo" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Email</label>
-                        <input type="text" class="form-control" id="exampleInputPassword1">
+                        <label for="exampleInputPassword1">Email*</label>
+                        <input type="text" placeholder="Por Ej: mail@ejemplo.com" class="form-control" id="exampleInputPassword1">
                     </div>
                     <div class="form-group">
-                        <label for="">Mensajes</label>
-                        <textarea name="comentarios" rows="10" cols="46" placeholder="Escribe aquí tus comentarios"></textarea>
+                        <label for="">Mensajes*</label>
+                        <textarea name="comentarios"  onkeyup="countChars(this);" class="w-100" rows="10" placeholder="Escribe aquí tus comentarios"></textarea>
+                        <p id="charNum">0 characters</p>
                     </div>
-        
+                    <div>
+                        <p class="text-white">(*)Campo Obligatorio</p>
+                    </div>
                     <button type="submit" class="btn btn-dark w-100">Enviar Comentario</button>
                 </form>
             </div>
             <div class="col-md-3 col-sm-12">
                 <div class="veinte">
-                    <div class="pt-5 text-center">
-                        <div>
-                            <h4>Visita Numero</h4>
-                        </div>
-                        <div class="bg-dark py-3 border border-white">
-                            <img src="http://counter8.freecounterstat.ovh/private/contadorvisitasgratis.php?c=e12c495a29e7110e893ba434f3377311"
-                                alt="">
-                        </div>
-                    </div>
+                   
                     <div class="pb-5">
                         <div>
                             <h4 class="pt-3 text-center">Video</h4>
@@ -141,18 +136,6 @@
                             </div>
                             <div>
                                 <img class="border border-white" src="Imagenes/aviso.jpg" alt="">
-                            </div>
-                            <div>
-                                <h4 class="text-center pt-3">Mensajes</h4>
-                            </div>
-                            <div>
-                                <img class="border border-white" src="Imagenes/mensaje.png" alt="">
-                            </div>
-                            <div>
-                                <h4 class="text-center pt-3">Lo Mas Descargado</h4>
-                            </div>
-                            <div>
-                                <img class="border border-white" src="Imagenes/imagen9.jpg" alt="">
                             </div>
 
                         </div>
@@ -190,6 +173,7 @@
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="textarea.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
